@@ -1,0 +1,5 @@
+# calculate pay (user input)
+hours = input('enter hours: ')
+payrate = input('enter rate of pay: ')
+pay = float(hours) * float(payrate)
+print('pay:', pay)
